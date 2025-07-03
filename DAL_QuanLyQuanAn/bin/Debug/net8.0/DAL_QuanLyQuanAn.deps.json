@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DAL_QuanLyQuanAn/1.0.0": {
+        "dependencies": {
+          "DTO_QuanLyQuanAn": "1.0.0"
+        },
+        "runtime": {
+          "DAL_QuanLyQuanAn.dll": {}
+        }
+      },
+      "DTO_QuanLyQuanAn/1.0.0": {
+        "runtime": {
+          "DTO_QuanLyQuanAn.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DAL_QuanLyQuanAn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO_QuanLyQuanAn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

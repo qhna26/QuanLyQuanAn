@@ -1,0 +1,5 @@
+C:\Users\admin\Desktop\SD1902_QLQuanAn\UTIL_QuanLyQuanAn\obj\Debug\net8.0\UTIL_QuanLyQuanAn.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\SD1902_QLQuanAn\UTIL_QuanLyQuanAn\obj\Debug\net8.0\UTIL_QuanLyQuanAn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\SD1902_QLQuanAn\UTIL_QuanLyQuanAn\obj\Debug\net8.0\UTIL_QuanLyQuanAn.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\SD1902_QLQuanAn\UTIL_QuanLyQuanAn\obj\Debug\net8.0\UTIL_QuanLyQuanAn.AssemblyInfo.cs
+C:\Users\admin\Desktop\SD1902_QLQuanAn\UTIL_QuanLyQuanAn\obj\Debug\net8.0\UTIL_QuanLyQuanAn.csproj.CoreCompileInputs.cache

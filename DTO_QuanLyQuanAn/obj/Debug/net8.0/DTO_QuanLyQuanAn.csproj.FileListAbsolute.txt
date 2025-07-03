@@ -1,0 +1,11 @@
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\bin\Debug\net8.0\DTO_QuanLyQuanAn.deps.json
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\bin\Debug\net8.0\DTO_QuanLyQuanAn.dll
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\bin\Debug\net8.0\DTO_QuanLyQuanAn.pdb
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\DTO_QuanLyQuanAn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\DTO_QuanLyQuanAn.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\DTO_QuanLyQuanAn.AssemblyInfo.cs
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\DTO_QuanLyQuanAn.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\DTO_QuanLyQuanAn.dll
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\refint\DTO_QuanLyQuanAn.dll
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\DTO_QuanLyQuanAn.pdb
+C:\Users\admin\Desktop\SD1902_QLQuanAn\DTO_QuanLyQuanAn\obj\Debug\net8.0\ref\DTO_QuanLyQuanAn.dll
