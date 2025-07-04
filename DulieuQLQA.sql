@@ -1,4 +1,7 @@
-﻿-- Món Ăn
+﻿use QuanLyQuanAN
+go
+
+-- Món Ăn
 INSERT INTO MonAn (MaMon, TenMon, TenLoai, DonGia, TrangThai)
 VALUES ('MA01', N'Cơm sườn', N'Món chính', 40000, 1);
 
@@ -37,11 +40,16 @@ VALUES ('PN01', 'MA01', 10, 35000);
 -- Tồn Kho
 INSERT INTO TonKho (MaMon, SoLuongTon)
 VALUES ('MA01', 20);
+
+--Lương Nhân Viên
+INSERT INTO LuongNhanVien (MaLuong, MaNV, NgayBatDau, SoTien, NgayTra)
+VALUES 
+('L001', 'NV01', '2025-07-01', 10000000, '2025-08-2');
+
 --Ca Làm
 INSERT INTO CaLamViec (MaCa, TenCa, GioBatDau, GioKetThuc)
-
 VALUES ('CA01', N'Ca Sáng', '07:00', '11:00');
---Chi Tiết Ca Làm
 
+--Chi Tiết Ca Làm
 INSERT INTO ChiTietCaLam (MaNV, MaCa, Ngay)
 VALUES ('NV01', 'CA01', '2025-07-04');
