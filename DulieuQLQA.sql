@@ -1,36 +1,47 @@
-﻿-- 1. LoaiMon
-INSERT INTO LoaiMon VALUES ('LM01', N'Trà sữa');
+﻿-- Món Ăn
+INSERT INTO MonAn (MaMon, TenMon, TenLoai, DonGia, TrangThai)
+VALUES ('MA01', N'Cơm sườn', N'Món chính', 40000, 1);
 
--- 2. MonAn
-INSERT INTO MonAn VALUES ('MA01', N'Trà sữa trân châu', 30000, 'LM01', 1);
+-- Bàn Ăn
+INSERT INTO BanAn (MaBan, TenBan, ViTri, TrangThai)
+VALUES ('B01', N'Bàn 1', N'Tầng trệt - Gần cửa sổ', N'Trống');
 
--- 3. BanAn
-INSERT INTO BanAn VALUES ('B01', N'Bàn 1', N'Tầng trệt', N'Trống');
+-- Nhân Viên
+INSERT INTO NhanVien (MaNV, HoTen, GioiTinh, NgaySinh, SDT, Email, MatKhau, ChucVu)
+VALUES ('NV01', N'Lê Văn An', N'Nam', '1990-05-10', '0909123456', 'levana@example.com', '123456', N'Nhân viên');
 
--- 4. NhanVien
-INSERT INTO NhanVien VALUES ('NV001', N'Nguyễn Văn An', N'Nam', '1990-05-15', '0909123456', 'an@gmail.com', N'Admin');
+-- Khách Hàng
+INSERT INTO KhachHang (MaKH, HoTen, SDT, DiemTichLuy)
+VALUES ('KH01', N'Nguyễn Thị Bích', '0911222333', 15);
 
--- 5. TaiKhoan
-INSERT INTO TaiKhoan VALUES ('admin', '123', 'NV001', N'Admin');
+-- Khuyến Mãi
+INSERT INTO KhuyenMai (MaKM, TenKM, PhanTramGiam, NgayBatDau, NgayKetThuc)
+VALUES ('KM01', N'Giảm 20% cuối tuần', 20, '2025-07-01', '2025-07-31');
 
--- 6. KhachHang
-INSERT INTO KhachHang VALUES ('KH01', N'Lê Thị Hoa', '0912345678', 120);
+-- Hóa Đơn
+INSERT INTO HoaDon (MaHD, MaBan, NgayLap, GioLap, MaNV, MaKH, MaKM, TongTien, TrangThai)
+VALUES ('HD01', 'B01', '2025-07-04', '11:45:00', 'NV01', 'KH01', 'KM01', 32000, N'Chưa thanh toán');
 
--- 7. KhuyenMai
-INSERT INTO KhuyenMai VALUES ('KM01', N'Giảm 20% hè 2025', 20, '2025-06-01', '2025-06-30');
+-- Chi Tiết Hóa Đơn
+INSERT INTO ChiTietHD (MaHD, MaMon, SoLuong, DonGia)
+VALUES ('HD01', 'MA01', 1, 40000);
 
--- 8. HoaDon
-INSERT INTO HoaDon VALUES ('HD01', 'B01', '2025-06-30', '14:30:00', 'NV001', 'KH01', 'KM01', 60000, N'Đã thanh toán');
+-- Phiếu Nhập
+INSERT INTO PhieuNhap (MaPN, NgayNhap, MaNV)
+VALUES ('PN01', '2025-07-03', 'NV01');
 
--- 9. ChiTietHD
-INSERT INTO ChiTietHD VALUES ('HD01', 'MA01', 2, 30000);
+-- Chi Tiết Phiếu Nhập
+INSERT INTO ChiTietPhieuNhap (MaPN, MaMon, SoLuong, DonGia)
+VALUES ('PN01', 'MA01', 10, 35000);
 
---10. PhieuNhap
-INSERT INTO PhieuNhap (MaPN, NgayNhap, MaNV) VALUES ('PN01', '2025-06-29', 'NV001');
+-- Tồn Kho
+INSERT INTO TonKho (MaMon, SoLuongTon)
+VALUES ('MA01', 20);
+--Ca Làm
+INSERT INTO CaLamViec (MaCa, TenCa, GioBatDau, GioKetThuc)
 
---11. ChiTietPhieuNhap
-INSERT INTO ChiTietPhieuNhap (MaPN, MaMon, SoLuong, DonGia) VALUES ('PN01', 'MA01', 10, 20000);
+VALUES ('CA01', N'Ca Sáng', '07:00', '11:00');
+--Chi Tiết Ca Làm
 
---12. TonKho
-INSERT INTO TonKho (MaMon, SoLuongTon) VALUES ('MA01', 50);
-
+INSERT INTO ChiTietCaLam (MaNV, MaCa, Ngay)
+VALUES ('NV01', 'CA01', '2025-07-04');

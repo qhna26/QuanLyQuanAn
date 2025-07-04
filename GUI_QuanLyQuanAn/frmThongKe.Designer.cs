@@ -59,7 +59,6 @@
             btnthongke = new Guna.UI2.WinForms.Guna2Button();
             lblnkthuc = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblnbdau = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            lbltieude = new Label();
             guna2GroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvthongke).BeginInit();
             btnxuatfile.SuspendLayout();
@@ -73,10 +72,10 @@
             guna2GroupBox2.CustomizableEdges = customizableEdges1;
             guna2GroupBox2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2GroupBox2.ForeColor = Color.Black;
-            guna2GroupBox2.Location = new Point(1, 354);
+            guna2GroupBox2.Location = new Point(0, 269);
             guna2GroupBox2.Name = "guna2GroupBox2";
             guna2GroupBox2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2GroupBox2.Size = new Size(916, 340);
+            guna2GroupBox2.Size = new Size(916, 354);
             guna2GroupBox2.TabIndex = 18;
             guna2GroupBox2.Text = "Danh sách thống kê";
             // 
@@ -104,10 +103,10 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dgvthongke.DefaultCellStyle = dataGridViewCellStyle3;
             dgvthongke.GridColor = Color.FromArgb(231, 229, 255);
-            dgvthongke.Location = new Point(3, 38);
+            dgvthongke.Location = new Point(0, 38);
             dgvthongke.Name = "dgvthongke";
             dgvthongke.RowHeadersVisible = false;
-            dgvthongke.Size = new Size(913, 302);
+            dgvthongke.Size = new Size(916, 316);
             dgvthongke.TabIndex = 0;
             dgvthongke.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvthongke.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -147,10 +146,10 @@
             btnxuatfile.FillColor = Color.Khaki;
             btnxuatfile.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnxuatfile.ForeColor = Color.Black;
-            btnxuatfile.Location = new Point(1, 86);
+            btnxuatfile.Location = new Point(0, 2);
             btnxuatfile.Name = "btnxuatfile";
             btnxuatfile.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnxuatfile.Size = new Size(916, 274);
+            btnxuatfile.Size = new Size(916, 273);
             btnxuatfile.TabIndex = 17;
             btnxuatfile.Text = "Thống kế";
             // 
@@ -163,7 +162,7 @@
             dtpkthuc.CustomizableEdges = customizableEdges3;
             dtpkthuc.Font = new Font("Segoe UI", 9F);
             dtpkthuc.Format = DateTimePickerFormat.Long;
-            dtpkthuc.Location = new Point(440, 43);
+            dtpkthuc.Location = new Point(451, 52);
             dtpkthuc.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpkthuc.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpkthuc.Name = "dtpkthuc";
@@ -181,7 +180,7 @@
             dtpnbdau.CustomizableEdges = customizableEdges5;
             dtpnbdau.Font = new Font("Segoe UI", 9F);
             dtpnbdau.Format = DateTimePickerFormat.Long;
-            dtpnbdau.Location = new Point(96, 43);
+            dtpnbdau.Location = new Point(107, 52);
             dtpnbdau.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpnbdau.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpnbdau.Name = "dtpnbdau";
@@ -290,7 +289,7 @@
             lblnkthuc.BackColor = Color.Transparent;
             lblnkthuc.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblnkthuc.ForeColor = Color.Black;
-            lblnkthuc.Location = new Point(350, 52);
+            lblnkthuc.Location = new Point(361, 61);
             lblnkthuc.Name = "lblnkthuc";
             lblnkthuc.Size = new Size(84, 17);
             lblnkthuc.TabIndex = 4;
@@ -301,25 +300,11 @@
             lblnbdau.BackColor = Color.Transparent;
             lblnbdau.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblnbdau.ForeColor = Color.Black;
-            lblnbdau.Location = new Point(11, 52);
+            lblnbdau.Location = new Point(22, 61);
             lblnbdau.Name = "lblnbdau";
             lblnbdau.Size = new Size(79, 17);
             lblnbdau.TabIndex = 0;
             lblnbdau.Text = "Ngày bắt đầu:";
-            // 
-            // lbltieude
-            // 
-            lbltieude.AutoSize = true;
-            lbltieude.BackColor = Color.Transparent;
-            lbltieude.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbltieude.ForeColor = Color.Red;
-            lbltieude.Location = new Point(308, 25);
-            lbltieude.Name = "lbltieude";
-            lbltieude.Size = new Size(280, 43);
-            lbltieude.TabIndex = 16;
-            lbltieude.Text = "QUẢN LÝ THỐNG KÊ";
-            lbltieude.TextAlign = ContentAlignment.TopCenter;
-            lbltieude.UseCompatibleTextRendering = true;
             // 
             // frmThongKe
             // 
@@ -328,7 +313,6 @@
             ClientSize = new Size(975, 724);
             Controls.Add(guna2GroupBox2);
             Controls.Add(btnxuatfile);
-            Controls.Add(lbltieude);
             Name = "frmThongKe";
             Text = "frmThongKe";
             guna2GroupBox2.ResumeLayout(false);
@@ -336,7 +320,6 @@
             btnxuatfile.ResumeLayout(false);
             btnxuatfile.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -353,7 +336,6 @@
         private Guna.UI2.WinForms.Guna2Button btnthongke;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblnkthuc;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblnbdau;
-        private Label lbltieude;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpkthuc;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpnbdau;
     }

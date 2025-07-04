@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             lblkk = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtdangnhap = new Guna.UI2.WinForms.Guna2TextBox();
             lbldangnhap = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -65,7 +65,7 @@
             txtdangnhap.BackColor = Color.Transparent;
             txtdangnhap.BorderColor = Color.Transparent;
             txtdangnhap.BorderRadius = 10;
-            txtdangnhap.CustomizableEdges = customizableEdges9;
+            txtdangnhap.CustomizableEdges = customizableEdges1;
             txtdangnhap.DefaultText = "";
             txtdangnhap.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtdangnhap.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -82,7 +82,7 @@
             txtdangnhap.Name = "txtdangnhap";
             txtdangnhap.PlaceholderText = "";
             txtdangnhap.SelectedText = "";
-            txtdangnhap.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            txtdangnhap.ShadowDecoration.CustomizableEdges = customizableEdges2;
             txtdangnhap.Size = new Size(389, 36);
             txtdangnhap.TabIndex = 1;
             // 
@@ -113,7 +113,7 @@
             txtmatkhau.BackColor = Color.Transparent;
             txtmatkhau.BorderColor = Color.Transparent;
             txtmatkhau.BorderRadius = 10;
-            txtmatkhau.CustomizableEdges = customizableEdges11;
+            txtmatkhau.CustomizableEdges = customizableEdges3;
             txtmatkhau.DefaultText = "";
             txtmatkhau.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtmatkhau.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -130,7 +130,7 @@
             txtmatkhau.Name = "txtmatkhau";
             txtmatkhau.PlaceholderText = "";
             txtmatkhau.SelectedText = "";
-            txtmatkhau.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtmatkhau.ShadowDecoration.CustomizableEdges = customizableEdges4;
             txtmatkhau.Size = new Size(305, 36);
             txtmatkhau.TabIndex = 5;
             // 
@@ -139,7 +139,7 @@
             btndangnhap.BackColor = Color.Transparent;
             btndangnhap.BorderRadius = 10;
             btndangnhap.BorderThickness = 1;
-            btndangnhap.CustomizableEdges = customizableEdges13;
+            btndangnhap.CustomizableEdges = customizableEdges5;
             btndangnhap.DisabledState.BorderColor = Color.DarkGray;
             btndangnhap.DisabledState.CustomBorderColor = Color.DarkGray;
             btndangnhap.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -150,7 +150,7 @@
             btndangnhap.Image = Properties.Resources.dangnhap;
             btndangnhap.Location = new Point(152, 308);
             btndangnhap.Name = "btndangnhap";
-            btndangnhap.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btndangnhap.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btndangnhap.Size = new Size(180, 45);
             btndangnhap.TabIndex = 7;
             btndangnhap.Text = "Đăng nhập";
@@ -160,7 +160,7 @@
             btnthoat.BackColor = Color.Transparent;
             btnthoat.BorderRadius = 10;
             btnthoat.BorderThickness = 1;
-            btnthoat.CustomizableEdges = customizableEdges15;
+            btnthoat.CustomizableEdges = customizableEdges7;
             btnthoat.DisabledState.BorderColor = Color.DarkGray;
             btnthoat.DisabledState.CustomBorderColor = Color.DarkGray;
             btnthoat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -168,10 +168,10 @@
             btnthoat.FillColor = Color.FromArgb(255, 255, 192);
             btnthoat.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnthoat.ForeColor = Color.Black;
-            btnthoat.Image = Properties.Resources.thoat1;
+            btnthoat.Image = Properties.Resources.dangxuat;
             btnthoat.Location = new Point(361, 308);
             btnthoat.Name = "btnthoat";
-            btnthoat.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnthoat.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnthoat.Size = new Size(180, 45);
             btnthoat.TabIndex = 8;
             btnthoat.Text = "Thoát";

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI_QuanLyQuanAn
 {
-    public partial class frmLoaiMon : Form
+    public partial class frmChiTietPhieuNhap : Form
     {
-        public frmLoaiMon()
+        public frmChiTietPhieuNhap()
         {
             InitializeComponent();
         }

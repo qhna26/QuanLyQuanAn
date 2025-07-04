@@ -174,7 +174,7 @@
             btnthoat.FillColor = Color.FromArgb(255, 255, 192);
             btnthoat.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnthoat.ForeColor = Color.Black;
-            btnthoat.Image = Properties.Resources.thoat1;
+            btnthoat.Image = Properties.Resources.dangxuat;
             btnthoat.Location = new Point(232, 374);
             btnthoat.Name = "btnthoat";
             btnthoat.ShadowDecoration.CustomizableEdges = customizableEdges8;

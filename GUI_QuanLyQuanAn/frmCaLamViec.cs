@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI_QuanLyQuanAn
 {
-    public partial class frmTaiKhoan : Form
+    public partial class frmCaLamViec : Form
     {
-        public frmTaiKhoan()
+        public frmCaLamViec()
         {
             InitializeComponent();
         }
