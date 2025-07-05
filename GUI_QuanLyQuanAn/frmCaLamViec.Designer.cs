@@ -35,6 +35,12 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -51,15 +57,12 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             dgvcalam = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            btnchitietcalam = new Guna.UI2.WinForms.Guna2Button();
+            dtpgioketthuc = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            dtpbatdau = new Guna.UI2.WinForms.Guna2DateTimePicker();
             txttimkiem = new Guna.UI2.WinForms.Guna2TextBox();
             lbltimkiem = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btntimkiem = new Guna.UI2.WinForms.Guna2Button();
@@ -67,15 +70,12 @@
             btnsua = new Guna.UI2.WinForms.Guna2Button();
             btnxoa = new Guna.UI2.WinForms.Guna2Button();
             btnthem = new Guna.UI2.WinForms.Guna2Button();
-            this.lblgioketthuc = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txttenMA = new Guna.UI2.WinForms.Guna2TextBox();
             lbltenCA = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            lblgiobatdau = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtmaMA = new Guna.UI2.WinForms.Guna2TextBox();
             lblmaCA = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            dtpbatdau = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            dtpgioketthuc = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            btnchitietcalam = new Guna.UI2.WinForms.Guna2Button();
+            lblgiobatdau = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            lblgioketthuc = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2GroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvcalam).BeginInit();
             guna2GroupBox1.SuspendLayout();
@@ -149,6 +149,8 @@
             // 
             // guna2GroupBox1
             // 
+            guna2GroupBox1.Controls.Add(lblgioketthuc);
+            guna2GroupBox1.Controls.Add(lblgiobatdau);
             guna2GroupBox1.Controls.Add(btnchitietcalam);
             guna2GroupBox1.Controls.Add(dtpgioketthuc);
             guna2GroupBox1.Controls.Add(dtpbatdau);
@@ -159,10 +161,8 @@
             guna2GroupBox1.Controls.Add(btnsua);
             guna2GroupBox1.Controls.Add(btnxoa);
             guna2GroupBox1.Controls.Add(btnthem);
-            guna2GroupBox1.Controls.Add(this.lblgioketthuc);
             guna2GroupBox1.Controls.Add(txttenMA);
             guna2GroupBox1.Controls.Add(lbltenCA);
-            guna2GroupBox1.Controls.Add(lblgiobatdau);
             guna2GroupBox1.Controls.Add(txtmaMA);
             guna2GroupBox1.Controls.Add(lblmaCA);
             guna2GroupBox1.CustomBorderColor = Color.Gold;
@@ -176,6 +176,63 @@
             guna2GroupBox1.Size = new Size(921, 279);
             guna2GroupBox1.TabIndex = 13;
             guna2GroupBox1.Text = "Thêm ca làm";
+            // 
+            // btnchitietcalam
+            // 
+            btnchitietcalam.BackColor = Color.Transparent;
+            btnchitietcalam.BorderRadius = 10;
+            btnchitietcalam.BorderThickness = 1;
+            btnchitietcalam.CustomizableEdges = customizableEdges3;
+            btnchitietcalam.DisabledState.BorderColor = Color.DarkGray;
+            btnchitietcalam.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnchitietcalam.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnchitietcalam.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnchitietcalam.FillColor = Color.FromArgb(255, 255, 192);
+            btnchitietcalam.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
+            btnchitietcalam.ForeColor = Color.Black;
+            btnchitietcalam.Image = Properties.Resources.status;
+            btnchitietcalam.Location = new Point(564, 172);
+            btnchitietcalam.Name = "btnchitietcalam";
+            btnchitietcalam.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnchitietcalam.Size = new Size(137, 45);
+            btnchitietcalam.TabIndex = 48;
+            btnchitietcalam.Text = "Chi tiết ca làm";
+            // 
+            // dtpgioketthuc
+            // 
+            dtpgioketthuc.BackColor = Color.Transparent;
+            dtpgioketthuc.BorderRadius = 10;
+            dtpgioketthuc.BorderThickness = 1;
+            dtpgioketthuc.Checked = true;
+            dtpgioketthuc.CustomizableEdges = customizableEdges5;
+            dtpgioketthuc.Font = new Font("Segoe UI", 9F);
+            dtpgioketthuc.Format = DateTimePickerFormat.Long;
+            dtpgioketthuc.Location = new Point(458, 109);
+            dtpgioketthuc.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            dtpgioketthuc.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            dtpgioketthuc.Name = "dtpgioketthuc";
+            dtpgioketthuc.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            dtpgioketthuc.Size = new Size(243, 36);
+            dtpgioketthuc.TabIndex = 47;
+            dtpgioketthuc.Value = new DateTime(2025, 7, 4, 12, 33, 19, 296);
+            // 
+            // dtpbatdau
+            // 
+            dtpbatdau.BackColor = Color.Transparent;
+            dtpbatdau.BorderRadius = 10;
+            dtpbatdau.BorderThickness = 1;
+            dtpbatdau.Checked = true;
+            dtpbatdau.CustomizableEdges = customizableEdges7;
+            dtpbatdau.Font = new Font("Segoe UI", 9F);
+            dtpbatdau.Format = DateTimePickerFormat.Long;
+            dtpbatdau.Location = new Point(102, 109);
+            dtpbatdau.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            dtpbatdau.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            dtpbatdau.Name = "dtpbatdau";
+            dtpbatdau.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            dtpbatdau.Size = new Size(243, 36);
+            dtpbatdau.TabIndex = 46;
+            dtpbatdau.Value = new DateTime(2025, 7, 4, 12, 33, 19, 296);
             // 
             // txttimkiem
             // 
@@ -314,17 +371,6 @@
             btnthem.TabIndex = 8;
             btnthem.Text = "Thêm";
             // 
-            // lblgioketthuc
-            // 
-            this.lblgioketthuc.BackColor = Color.FromArgb(0, 0, 0, 8);
-            this.lblgioketthuc.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            this.lblgioketthuc.ForeColor = Color.Black;
-            this.lblgioketthuc.Location = new Point(367, 119);
-            this.lblgioketthuc.Name = "lblgioketthuc";
-            this.lblgioketthuc.Size = new Size(76, 17);
-            this.lblgioketthuc.TabIndex = 6;
-            this.lblgioketthuc.Text = "Giờ kết thúc:";
-            // 
             // txttenMA
             // 
             txttenMA.BackColor = Color.Khaki;
@@ -357,17 +403,6 @@
             lbltenCA.Size = new Size(42, 17);
             lbltenCA.TabIndex = 4;
             lbltenCA.Text = "Tên ca:";
-            // 
-            // lblgiobatdau
-            // 
-            lblgiobatdau.BackColor = Color.Transparent;
-            lblgiobatdau.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblgiobatdau.ForeColor = Color.Black;
-            lblgiobatdau.Location = new Point(3, 119);
-            lblgiobatdau.Name = "lblgiobatdau";
-            lblgiobatdau.Size = new Size(71, 17);
-            lblgiobatdau.TabIndex = 2;
-            lblgiobatdau.Text = "Giờ bắt đầu:";
             // 
             // txtmaMA
             // 
@@ -404,62 +439,27 @@
             lblmaCA.TabIndex = 0;
             lblmaCA.Text = "Mã ca:";
             // 
-            // dtpbatdau
+            // lblgiobatdau
             // 
-            dtpbatdau.BackColor = Color.Transparent;
-            dtpbatdau.BorderRadius = 10;
-            dtpbatdau.BorderThickness = 1;
-            dtpbatdau.Checked = true;
-            dtpbatdau.CustomizableEdges = customizableEdges7;
-            dtpbatdau.Font = new Font("Segoe UI", 9F);
-            dtpbatdau.Format = DateTimePickerFormat.Long;
-            dtpbatdau.Location = new Point(102, 109);
-            dtpbatdau.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            dtpbatdau.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            dtpbatdau.Name = "dtpbatdau";
-            dtpbatdau.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            dtpbatdau.Size = new Size(243, 36);
-            dtpbatdau.TabIndex = 46;
-            dtpbatdau.Value = new DateTime(2025, 7, 4, 12, 33, 19, 296);
+            lblgiobatdau.BackColor = Color.Transparent;
+            lblgiobatdau.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblgiobatdau.ForeColor = Color.Black;
+            lblgiobatdau.Location = new Point(11, 119);
+            lblgiobatdau.Name = "lblgiobatdau";
+            lblgiobatdau.Size = new Size(71, 17);
+            lblgiobatdau.TabIndex = 49;
+            lblgiobatdau.Text = "Giờ bắt đầu:";
             // 
-            // dtpgioketthuc
+            // lblgioketthuc
             // 
-            dtpgioketthuc.BackColor = Color.Transparent;
-            dtpgioketthuc.BorderRadius = 10;
-            dtpgioketthuc.BorderThickness = 1;
-            dtpgioketthuc.Checked = true;
-            dtpgioketthuc.CustomizableEdges = customizableEdges5;
-            dtpgioketthuc.Font = new Font("Segoe UI", 9F);
-            dtpgioketthuc.Format = DateTimePickerFormat.Long;
-            dtpgioketthuc.Location = new Point(458, 109);
-            dtpgioketthuc.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            dtpgioketthuc.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            dtpgioketthuc.Name = "dtpgioketthuc";
-            dtpgioketthuc.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            dtpgioketthuc.Size = new Size(243, 36);
-            dtpgioketthuc.TabIndex = 47;
-            dtpgioketthuc.Value = new DateTime(2025, 7, 4, 12, 33, 19, 296);
-            // 
-            // btnchitietcalam
-            // 
-            btnchitietcalam.BackColor = Color.Transparent;
-            btnchitietcalam.BorderRadius = 10;
-            btnchitietcalam.BorderThickness = 1;
-            btnchitietcalam.CustomizableEdges = customizableEdges3;
-            btnchitietcalam.DisabledState.BorderColor = Color.DarkGray;
-            btnchitietcalam.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnchitietcalam.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnchitietcalam.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnchitietcalam.FillColor = Color.FromArgb(255, 255, 192);
-            btnchitietcalam.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
-            btnchitietcalam.ForeColor = Color.Black;
-            btnchitietcalam.Image = Properties.Resources.status;
-            btnchitietcalam.Location = new Point(564, 172);
-            btnchitietcalam.Name = "btnchitietcalam";
-            btnchitietcalam.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnchitietcalam.Size = new Size(137, 45);
-            btnchitietcalam.TabIndex = 48;
-            btnchitietcalam.Text = "Chi tiết ca làm";
+            lblgioketthuc.BackColor = Color.Transparent;
+            lblgioketthuc.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblgioketthuc.ForeColor = Color.Black;
+            lblgioketthuc.Location = new Point(367, 119);
+            lblgioketthuc.Name = "lblgioketthuc";
+            lblgioketthuc.Size = new Size(76, 17);
+            lblgioketthuc.TabIndex = 50;
+            lblgioketthuc.Text = "Giờ kết thúc:";
             // 
             // frmCaLamViec
             // 
@@ -495,11 +495,13 @@
         private Guna.UI2.WinForms.Guna2TextBox txttenMA;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbltenCA;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblgiobatdau;
+        private Guna.UI2.WinForms.Guna2Button btnchitietcalam;
         private Guna.UI2.WinForms.Guna2TextBox txtmaMA;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblmaCA;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpgioketthuc;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpbatdau;
-        private Guna.UI2.WinForms.Guna2Button btnchitietcalam;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblgiobatdau;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblgioketthuc;
     }
+
 }
