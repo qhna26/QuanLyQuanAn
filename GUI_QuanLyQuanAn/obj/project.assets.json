@@ -225,11 +225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\GUI_QuanLyQuanAn\\GUI_QuanLyQuanAn.csproj",
+      "projectUniqueName": "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\GUI_QuanLyQuanAn\\GUI_QuanLyQuanAn.csproj",
       "projectName": "GUI_QuanLyQuanAn",
-      "projectPath": "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\GUI_QuanLyQuanAn\\GUI_QuanLyQuanAn.csproj",
+      "projectPath": "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\GUI_QuanLyQuanAn\\GUI_QuanLyQuanAn.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\GUI_QuanLyQuanAn\\obj\\",
+      "outputPath": "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\GUI_QuanLyQuanAn\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -244,20 +244,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\BLL_QuanLyQuanAn\\BLL_QuanLyQuanAn.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\BLL_QuanLyQuanAn\\BLL_QuanLyQuanAn.csproj"
+            "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\BLL_QuanLyQuanAn\\BLL_QuanLyQuanAn.csproj": {
+              "projectPath": "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\BLL_QuanLyQuanAn\\BLL_QuanLyQuanAn.csproj"
             },
-            "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\DTO_QuanLyQuanAn\\DTO_QuanLyQuanAn.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\DTO_QuanLyQuanAn\\DTO_QuanLyQuanAn.csproj"
+            "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\DTO_QuanLyQuanAn\\DTO_QuanLyQuanAn.csproj": {
+              "projectPath": "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\DTO_QuanLyQuanAn\\DTO_QuanLyQuanAn.csproj"
             },
-            "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\UTIL_QuanLyQuanAn\\UTIL_QuanLyQuanAn.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\SD1902_QLQuanAn\\QuanLyQuanAn\\UTIL_QuanLyQuanAn\\UTIL_QuanLyQuanAn.csproj"
+            "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\UTIL_QuanLyQuanAn\\UTIL_QuanLyQuanAn.csproj": {
+              "projectPath": "E:\\Summer2025\\SD1902_QLQuanAn\\QuanLyQuanAn\\UTIL_QuanLyQuanAn\\UTIL_QuanLyQuanAn.csproj"
             }
           }
         }
@@ -272,7 +273,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -302,7 +303,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

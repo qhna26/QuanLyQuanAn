@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DTO_QuanLyQuanAn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da2a7d78ae5269deac157bf2cbd60849284b3324")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7143a3d013b5045c2fc4f1a200c4c4358f67f6d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DTO_QuanLyQuanAn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DTO_QuanLyQuanAn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

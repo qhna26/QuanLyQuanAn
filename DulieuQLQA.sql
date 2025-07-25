@@ -33,10 +33,10 @@ VALUES
 -- Nhân Viên
 INSERT INTO NhanVien (MaNV, HoTen, GioiTinh, NgaySinh, SDT, Email, MatKhau, ChucVu)
 VALUES 
-('NV01', N'Nguyễn Hoàng Anh Quân', N'Nam', '1989-26-9', '0967798072', 'nhaq@gmail.com', 'admin123', N'ADMIN'),
+('NV01', N'Nguyễn Hoàng Anh Quân', N'Nam', '1989-09-26', '0967798072', 'nhaq@gmail.com', 'admin123', N'ADMIN'),
 ('NV02', N'Nguyễn Anh Như', N'Nữ', '2002-12-14', '0967798073', 'nan@gmail.com', 'ql123', N'Quản lý'),
 ('NV03', N'Nguyễn Việt Hoàng', N'Nam', '2006-05-10', '0967798074', 'nvh@gmail.com', 'nv123', N'Nhân viên'),
-('NV04', N'Lê Đức Tiến', N'Nữ', '2005-10', '0967798076', 'ldt@gmail.com', 'nv123', N'Nhân viên'),
+('NV04', N'Lê Đức Tiến', N'Nữ', '2005-10-01', '0967798076', 'ldt@gmail.com', 'nv123', N'Nhân viên'),
 ('NV05', N'Trần Mạnh Tiến', N'Nam', '2004-05-10', '0967798077', 'tmt@gmail.com', 'nv123', N'Nhân viên'),
 ('NV06', N'Phạm Thế Anh', N'Nam', '2006-05-10', '0967798079', 'pta@gmail.com', 'nv123', N'Nhân viên'),
 ('NV07', N'Nguyễn Tiến Đạt', N'Nữ', '2007-05-10', '0967798080', 'ntd@gmail.com', 'nv123', N'Nhân viên'),

@@ -12,7 +12,7 @@ namespace DAL_QuanLyQuanAn
 {
     public class DBUtil
     {
-        public static string connString = @"Data Source=DESKTOP-G2GFTFM\SQLEXPRESS;Initial Catalog=QuanLyQuanAn;Integrated Security=True;Trust Server Certificate=True";
+        public static string connString = @"Data Source=DESKTOP-G2GFTFM;Initial Catalog=QuanLyQuanAn;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
 
         public static SqlCommand GetCommand(string sql, List<object> args, CommandType cmdType)
         {
