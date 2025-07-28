@@ -14,7 +14,7 @@ CREATE TABLE MonAn (
     TenMon NVARCHAR(100) NOT NULL,            -- Tên món ăn
     TenLoai NVARCHAR(100) NOT NULL,           -- Tên loại món (Ví dụ: Đồ uống, Món chính)
     DonGia MONEY NOT NULL,                    -- Giá tiền của món
-    TrangThai BIT NOT NULL DEFAULT 1          -- 1: Còn bán, 0: Hết món
+    SoLuong INT NOT NULL,           
 );
 
 -- ====================== BẢNG BÀN ĂN ======================
@@ -147,3 +147,19 @@ CREATE TABLE ChiTietCaLam (
     FOREIGN KEY (MaNV) REFERENCES NhanVien(MaNV),
     FOREIGN KEY (MaCa) REFERENCES CaLamViec(MaCa)
 );
+-- ====================== BẢNG ĐẶT MÓN ======================
+CREATE TABLE DatMon (
+    MaDatMon VARCHAR(10) PRIMARY KEY,     -- Mã đặt món (PK)
+    MaBan VARCHAR(10) NOT NULL,           -- Mã bàn ăn (FK -> BanAn)
+    MaMon VARCHAR(10) NOT NULL,           -- Mã món ăn (FK -> MonAn)
+    MaKH VARCHAR(10),                     -- Mã khách hàng (FK -> KhachHang)
+    MaKM VARCHAR(10),                     -- Mã khuyến mãi (FK -> KhuyenMai)
+    DonGia MONEY NOT NULL,                -- Đơn giá món
+    SoLuong INT NOT NULL,                 -- Số lượng món
+    NgayDat DATE NOT NULL DEFAULT GETDATE(), -- Ngày đặt
+    FOREIGN KEY (MaBan) REFERENCES BanAn(MaBan),
+    FOREIGN KEY (MaMon) REFERENCES MonAn(MaMon),
+    FOREIGN KEY (MaKH) REFERENCES KhachHang(MaKH),
+    FOREIGN KEY (MaKM) REFERENCES KhuyenMai(MaKM)
+);
+ 

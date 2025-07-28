@@ -1,8 +1,8 @@
-﻿use QuanLyQuanAN
+﻿use QuanLyQuanAn
 go
 
 -- Món Ăn
-INSERT INTO MonAn (MaMon, TenMon, TenLoai, DonGia, TrangThai)
+INSERT INTO MonAn (MaMon, TenMon, TenLoai, DonGia, SoLuong)
 VALUES
 ('MA01', N'Cơm sườn', N'Món chính', 40000, 20),
 ('MA02', N'Cơm thịt bò', N'Món chính', 50000, 10),
@@ -114,7 +114,7 @@ VALUES
 ('L007', 'NV07', '2025-07-04', 1000000, '2025-08-04'),
 ('L008', 'NV08', '2025-08-04', 1000000, '2025-09-04'),
 ('L009', 'NV09', '2025-09-04', 1000000, '2025-10-04'),
-('L010', 'NV10', '2025-10-05', 1000000, '2025-11-05');
+('L010', 'NV010', '2025-10-05', 1000000, '2025-11-05');
 
 --Ca Làm
 INSERT INTO CaLamViec (MaCa, TenCa, GioBatDau, GioKetThuc)
@@ -141,4 +141,18 @@ VALUES
 ('NV07', 'CA07', '2025-07-04'),
 ('NV08', 'CA08', '2025-08-04'),
 ('NV09', 'CA09', '2025-09-04'),
-('NV10', 'CA10', '2025-10-05');
+('NV010', 'CA10', '2025-10-05');
+--Đặt Món
+INSERT INTO DatMon (MaDatMon, MaBan, MaMon, MaKH, MaKM, DonGia, SoLuong)
+VALUES 
+('DM001', 'B01', 'MA01', 'KH01', 'KM01', 40000, 20),
+('DM002', 'B02', 'MA02', 'KH02', 'KM02', 50000, 10),
+('DM003', 'B03', 'MA03', 'KH03', 'KM03', 30000, 11),
+('DM004', 'B04', 'MA04', 'KH04', 'KM04', 70000, 12),
+('DM005', 'B05', 'MA05', 'KH05', 'KM05', 80000, 13),
+('DM006', 'B06', 'MA06', 'KH06', 'KM06', 80000, 14),
+('DM007', 'B07', 'MA07', 'KH07', 'KM07',90000, 15),
+('DM008', 'B08', 'MA08','KH08', 'KM08', 100000, 16),
+('DM009', 'B09', 'MA09', 'KH09', 'KM09', 90000, 17),
+('DM010', 'B010', 'MA010','KH10', 'KM10', 60000,18);
+

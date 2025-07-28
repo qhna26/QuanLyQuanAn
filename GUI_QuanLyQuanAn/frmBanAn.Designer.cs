@@ -33,10 +33,8 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -53,16 +51,17 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             dgvBA = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             btnlammoi = new Guna.UI2.WinForms.Guna2Button();
-            rdo = new RadioButton();
             btnsua = new Guna.UI2.WinForms.Guna2Button();
-            rdodangsudung = new RadioButton();
             btnxoa = new Guna.UI2.WinForms.Guna2Button();
             btnthem = new Guna.UI2.WinForms.Guna2Button();
-            rdoconban = new RadioButton();
             txttimkiem = new Guna.UI2.WinForms.Guna2TextBox();
             lbltimkiem = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btntimkiem = new Guna.UI2.WinForms.Guna2Button();
@@ -73,6 +72,7 @@
             lblmk = new Guna.UI2.WinForms.Guna2HtmlLabel();
             txtmaMA = new Guna.UI2.WinForms.Guna2TextBox();
             lblmaMA = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            cbomonan = new Guna.UI2.WinForms.Guna2ComboBox();
             guna2GroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvBA).BeginInit();
             guna2GroupBox1.SuspendLayout();
@@ -145,13 +145,11 @@
             // 
             // guna2GroupBox1
             // 
+            guna2GroupBox1.Controls.Add(cbomonan);
             guna2GroupBox1.Controls.Add(btnlammoi);
-            guna2GroupBox1.Controls.Add(rdo);
             guna2GroupBox1.Controls.Add(btnsua);
-            guna2GroupBox1.Controls.Add(rdodangsudung);
             guna2GroupBox1.Controls.Add(btnxoa);
             guna2GroupBox1.Controls.Add(btnthem);
-            guna2GroupBox1.Controls.Add(rdoconban);
             guna2GroupBox1.Controls.Add(txttimkiem);
             guna2GroupBox1.Controls.Add(lbltimkiem);
             guna2GroupBox1.Controls.Add(btntimkiem);
@@ -163,13 +161,13 @@
             guna2GroupBox1.Controls.Add(txtmaMA);
             guna2GroupBox1.Controls.Add(lblmaMA);
             guna2GroupBox1.CustomBorderColor = Color.Gold;
-            guna2GroupBox1.CustomizableEdges = customizableEdges21;
+            guna2GroupBox1.CustomizableEdges = customizableEdges23;
             guna2GroupBox1.FillColor = Color.Khaki;
             guna2GroupBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2GroupBox1.ForeColor = Color.Black;
             guna2GroupBox1.Location = new Point(2, 0);
             guna2GroupBox1.Name = "guna2GroupBox1";
-            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges24;
             guna2GroupBox1.Size = new Size(926, 274);
             guna2GroupBox1.TabIndex = 14;
             guna2GroupBox1.Text = "Thêm bàn ăn";
@@ -179,7 +177,7 @@
             btnlammoi.BackColor = Color.Transparent;
             btnlammoi.BorderRadius = 10;
             btnlammoi.BorderThickness = 1;
-            btnlammoi.CustomizableEdges = customizableEdges3;
+            btnlammoi.CustomizableEdges = customizableEdges5;
             btnlammoi.DisabledState.BorderColor = Color.DarkGray;
             btnlammoi.DisabledState.CustomBorderColor = Color.DarkGray;
             btnlammoi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -190,31 +188,17 @@
             btnlammoi.Image = Properties.Resources.lammoi;
             btnlammoi.Location = new Point(388, 156);
             btnlammoi.Name = "btnlammoi";
-            btnlammoi.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnlammoi.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnlammoi.Size = new Size(90, 45);
             btnlammoi.TabIndex = 19;
             btnlammoi.Text = "Làm mới";
-            // 
-            // rdo
-            // 
-            rdo.AutoSize = true;
-            rdo.BackColor = Color.Transparent;
-            rdo.Cursor = Cursors.Hand;
-            rdo.Font = new Font("Segoe UI", 9.75F);
-            rdo.ForeColor = Color.Black;
-            rdo.Location = new Point(647, 104);
-            rdo.Name = "rdo";
-            rdo.Size = new Size(72, 21);
-            rdo.TabIndex = 33;
-            rdo.Text = "Hết bàn";
-            rdo.UseVisualStyleBackColor = false;
             // 
             // btnsua
             // 
             btnsua.BackColor = Color.Transparent;
             btnsua.BorderRadius = 10;
             btnsua.BorderThickness = 1;
-            btnsua.CustomizableEdges = customizableEdges5;
+            btnsua.CustomizableEdges = customizableEdges7;
             btnsua.DisabledState.BorderColor = Color.DarkGray;
             btnsua.DisabledState.CustomBorderColor = Color.DarkGray;
             btnsua.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -225,31 +209,17 @@
             btnsua.Image = Properties.Resources.sua;
             btnsua.Location = new Point(263, 156);
             btnsua.Name = "btnsua";
-            btnsua.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnsua.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnsua.Size = new Size(90, 45);
             btnsua.TabIndex = 18;
             btnsua.Text = "Sửa";
-            // 
-            // rdodangsudung
-            // 
-            rdodangsudung.AutoSize = true;
-            rdodangsudung.BackColor = Color.Transparent;
-            rdodangsudung.Cursor = Cursors.Hand;
-            rdodangsudung.Font = new Font("Segoe UI", 9.75F);
-            rdodangsudung.ForeColor = Color.Black;
-            rdodangsudung.Location = new Point(532, 104);
-            rdodangsudung.Name = "rdodangsudung";
-            rdodangsudung.Size = new Size(109, 21);
-            rdodangsudung.TabIndex = 32;
-            rdodangsudung.Text = "Đang sự dụng";
-            rdodangsudung.UseVisualStyleBackColor = false;
             // 
             // btnxoa
             // 
             btnxoa.BackColor = Color.Transparent;
             btnxoa.BorderRadius = 10;
             btnxoa.BorderThickness = 1;
-            btnxoa.CustomizableEdges = customizableEdges7;
+            btnxoa.CustomizableEdges = customizableEdges9;
             btnxoa.DisabledState.BorderColor = Color.DarkGray;
             btnxoa.DisabledState.CustomBorderColor = Color.DarkGray;
             btnxoa.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -260,7 +230,7 @@
             btnxoa.Image = Properties.Resources.delete;
             btnxoa.Location = new Point(137, 156);
             btnxoa.Name = "btnxoa";
-            btnxoa.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnxoa.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnxoa.Size = new Size(90, 45);
             btnxoa.TabIndex = 17;
             btnxoa.Text = "Xóa";
@@ -270,7 +240,7 @@
             btnthem.BackColor = Color.Transparent;
             btnthem.BorderRadius = 10;
             btnthem.BorderThickness = 1;
-            btnthem.CustomizableEdges = customizableEdges9;
+            btnthem.CustomizableEdges = customizableEdges11;
             btnthem.DisabledState.BorderColor = Color.DarkGray;
             btnthem.DisabledState.CustomBorderColor = Color.DarkGray;
             btnthem.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -281,33 +251,17 @@
             btnthem.Image = Properties.Resources.them__2_;
             btnthem.Location = new Point(10, 156);
             btnthem.Name = "btnthem";
-            btnthem.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnthem.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnthem.Size = new Size(90, 45);
             btnthem.TabIndex = 16;
             btnthem.Text = "Thêm";
-            // 
-            // rdoconban
-            // 
-            rdoconban.AutoSize = true;
-            rdoconban.BackColor = Color.Transparent;
-            rdoconban.Checked = true;
-            rdoconban.Cursor = Cursors.Hand;
-            rdoconban.Font = new Font("Segoe UI", 9.75F);
-            rdoconban.ForeColor = Color.Black;
-            rdoconban.Location = new Point(451, 104);
-            rdoconban.Name = "rdoconban";
-            rdoconban.Size = new Size(75, 21);
-            rdoconban.TabIndex = 31;
-            rdoconban.TabStop = true;
-            rdoconban.Text = "Còn bàn";
-            rdoconban.UseVisualStyleBackColor = false;
             // 
             // txttimkiem
             // 
             txttimkiem.BackColor = Color.Khaki;
             txttimkiem.BorderColor = Color.Transparent;
             txttimkiem.BorderRadius = 10;
-            txttimkiem.CustomizableEdges = customizableEdges11;
+            txttimkiem.CustomizableEdges = customizableEdges13;
             txttimkiem.DefaultText = "";
             txttimkiem.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txttimkiem.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -320,7 +274,7 @@
             txttimkiem.Name = "txttimkiem";
             txttimkiem.PlaceholderText = "";
             txttimkiem.SelectedText = "";
-            txttimkiem.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txttimkiem.ShadowDecoration.CustomizableEdges = customizableEdges14;
             txttimkiem.Size = new Size(250, 36);
             txttimkiem.TabIndex = 22;
             // 
@@ -339,7 +293,7 @@
             // 
             btntimkiem.BackColor = Color.Transparent;
             btntimkiem.BorderRadius = 10;
-            btntimkiem.CustomizableEdges = customizableEdges13;
+            btntimkiem.CustomizableEdges = customizableEdges15;
             btntimkiem.DisabledState.BorderColor = Color.DarkGray;
             btntimkiem.DisabledState.CustomBorderColor = Color.DarkGray;
             btntimkiem.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -350,7 +304,7 @@
             btntimkiem.Image = Properties.Resources.timkiem;
             btntimkiem.Location = new Point(812, 219);
             btntimkiem.Name = "btntimkiem";
-            btntimkiem.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btntimkiem.ShadowDecoration.CustomizableEdges = customizableEdges16;
             btntimkiem.Size = new Size(92, 36);
             btntimkiem.TabIndex = 20;
             btntimkiem.Text = "Tìm kiếm";
@@ -371,7 +325,7 @@
             txttenMA.BackColor = Color.Transparent;
             txttenMA.BorderColor = Color.Transparent;
             txttenMA.BorderRadius = 10;
-            txttenMA.CustomizableEdges = customizableEdges15;
+            txttenMA.CustomizableEdges = customizableEdges17;
             txttenMA.DefaultText = "";
             txttenMA.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txttenMA.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -384,7 +338,7 @@
             txttenMA.Name = "txttenMA";
             txttenMA.PlaceholderText = "";
             txttenMA.SelectedText = "";
-            txttenMA.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            txttenMA.ShadowDecoration.CustomizableEdges = customizableEdges18;
             txttenMA.Size = new Size(250, 36);
             txttenMA.TabIndex = 5;
             // 
@@ -404,7 +358,7 @@
             guna2TextBox2.BackColor = Color.Transparent;
             guna2TextBox2.BorderColor = Color.Transparent;
             guna2TextBox2.BorderRadius = 10;
-            guna2TextBox2.CustomizableEdges = customizableEdges17;
+            guna2TextBox2.CustomizableEdges = customizableEdges19;
             guna2TextBox2.DefaultText = "";
             guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -417,7 +371,7 @@
             guna2TextBox2.Name = "guna2TextBox2";
             guna2TextBox2.PlaceholderText = "";
             guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2TextBox2.Size = new Size(243, 36);
             guna2TextBox2.TabIndex = 3;
             // 
@@ -437,7 +391,7 @@
             txtmaMA.BackColor = Color.Transparent;
             txtmaMA.BorderColor = Color.Transparent;
             txtmaMA.BorderRadius = 10;
-            txtmaMA.CustomizableEdges = customizableEdges19;
+            txtmaMA.CustomizableEdges = customizableEdges21;
             txtmaMA.DefaultText = "";
             txtmaMA.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtmaMA.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -450,7 +404,7 @@
             txtmaMA.Name = "txtmaMA";
             txtmaMA.PlaceholderText = "";
             txtmaMA.SelectedText = "";
-            txtmaMA.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            txtmaMA.ShadowDecoration.CustomizableEdges = customizableEdges22;
             txtmaMA.Size = new Size(243, 36);
             txtmaMA.TabIndex = 1;
             // 
@@ -464,6 +418,25 @@
             lblmaMA.Size = new Size(78, 17);
             lblmaMA.TabIndex = 0;
             lblmaMA.Text = "Nhập mã bàn:";
+            // 
+            // cbomonan
+            // 
+            cbomonan.BackColor = Color.Transparent;
+            cbomonan.BorderColor = Color.Transparent;
+            cbomonan.BorderRadius = 10;
+            cbomonan.CustomizableEdges = customizableEdges3;
+            cbomonan.DrawMode = DrawMode.OwnerDrawFixed;
+            cbomonan.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbomonan.FocusedColor = Color.FromArgb(94, 148, 255);
+            cbomonan.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            cbomonan.Font = new Font("Segoe UI", 10F);
+            cbomonan.ForeColor = Color.FromArgb(68, 88, 112);
+            cbomonan.ItemHeight = 30;
+            cbomonan.Location = new Point(451, 95);
+            cbomonan.Name = "cbomonan";
+            cbomonan.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            cbomonan.Size = new Size(250, 36);
+            cbomonan.TabIndex = 42;
             // 
             // frmBanAn
             // 
@@ -497,12 +470,10 @@
         private Guna.UI2.WinForms.Guna2TextBox txttimkiem;
         private Guna.UI2.WinForms.Guna2HtmlLabel lbltimkiem;
         private Guna.UI2.WinForms.Guna2Button btntimkiem;
-        private RadioButton rdo;
-        private RadioButton rdodangsudung;
-        private RadioButton rdoconban;
         private Guna.UI2.WinForms.Guna2Button btnlammoi;
         private Guna.UI2.WinForms.Guna2Button btnsua;
         private Guna.UI2.WinForms.Guna2Button btnxoa;
         private Guna.UI2.WinForms.Guna2Button btnthem;
+        private Guna.UI2.WinForms.Guna2ComboBox cbomonan;
     }
 }
